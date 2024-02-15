@@ -106,7 +106,7 @@ def main():
         weight_decay=args.weight_decay,
         metric_for_best_model="accuracy",
         run_name="code-clone-java",
-        report_to="wandb",
+        report_to="none",
     )
 
     trainer = Trainer(
